@@ -19,16 +19,19 @@ class Circle:
 
     # instance method
     def cal_area(self):
-        area = math.pi * self.radius * self.radius
-        print("Area:", area)
+        self.area = math.pi * self.radius * self.radius
 
     # instance method
     def cal_circumference(self):
-        circ = 2 * math.pi * self.radius
-        print("Circumference:", circ)
+        self.circ = 2 * math.pi * self.radius
+
+    def display(self):
+        print("Area:", self.area)
+        print("Circumference:", self.circ)
 
 
 r = int(input("Enter radius:"))
 obj = Circle(r)
 obj.cal_area()
 obj.cal_circumference()
+obj.display()
