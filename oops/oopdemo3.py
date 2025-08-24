@@ -1,9 +1,15 @@
-# 1. *** Every object in python has an attribute denoted by __dict__.
-
+# 1. Every object in python has an attribute denoted by __dict__.
 # 2. This attribute is automatically added by python and it contains all the
 #    attributes defined for the object itself.
-
 # 3. It maps the attribute names to their corresponding values.
+
+
+# There are 4 ways in python to create instance variables.
+
+# 1. Using self keyword inside __init__()/constructor method.
+# 2. Using self keyword inside any other method.
+# 3. Using object reference outside the class.
+# 4. Using __dict__ attribute of the object.
 
 class Employee:
     def __init__(self, name, age, salary):
