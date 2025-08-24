@@ -1,4 +1,5 @@
 # Obtaining Details of Class Variables
+
 # 1. class variables are owned by the class itself, so to store their details a
 #    class also uses a dictionary named __dict__.
 
