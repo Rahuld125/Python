@@ -1,3 +1,6 @@
+# __str__ method : to return a string representation of the object
+
+
 class Emp:
     def __init__(self, name, age, salary):
         self.name = name
