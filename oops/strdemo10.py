@@ -7,10 +7,10 @@
 # 2. The 'object' class provides several special (magic) methods that all classes inherit.
 
 # 3. Common special methods include:
-#    - __init__(): Constructor, called when an object is created.
-#    - __str__(): Returns a string representation of the object (used by print()).
-#    - __new__(): Creates a new instance of the class.
-#    - __del__(): Called when an object is about to be destroyed.
+#    __init__(): Constructor, called when an object is created.
+#    __str__(): Returns a string representation of the object (used by print()).
+#    __new__(): Creates a new instance of the class.
+#    __del__(): Called when an object is about to be destroyed.
 
 
 class Emp:
