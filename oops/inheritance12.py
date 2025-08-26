@@ -1,4 +1,3 @@
-
 # Inheritance : It is a powerful feature of Object Oriented Programming.
 
 # 1. Single Inheritance
