@@ -6,6 +6,7 @@ try:
     b = int(input("Enter second no:"))
     c = a / b
     print("Div is ", c)
+    # break
     sys.exit(0)
 except ZeroDivisionError:
     print("Denominator must not be 0")
