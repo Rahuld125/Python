@@ -1,0 +1,5 @@
+obj = range(10)
+print(type(obj))
+print(obj)
+obj2 = list(obj)
+print(obj2)
