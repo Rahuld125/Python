@@ -1,0 +1,1 @@
+print(list(map(lambda str:str[0], ["jan","feb","mar"])))

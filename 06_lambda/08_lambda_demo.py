@@ -1,0 +1,1 @@
+print(list(map(lambda str:"Even" if len(str)%2==0 else str[0] , ["january","february","march"])))
