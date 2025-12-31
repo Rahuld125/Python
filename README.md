@@ -20,5 +20,4 @@
  ┣ 📂 15_pdbc
  ┣ 📂 16_file_handling
  ┗ 📂 17_module
-
 ```
